@@ -1,0 +1,127 @@
+html {
+  font-size: 15px; }
+
+@media only screen and (min-width: 700px) {
+  html {
+    font-size: 20px; } }
+@media only screen and (min-width: 1500px) {
+  html {
+    font-size: 30px; } }
+body {
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: 400; }
+
+.fw-400 {
+  font-weight: 400; }
+
+.fw-700 {
+  font-weight: 700; }
+
+.underline {
+  border-bottom: 1px solid #fff; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.bg-black {
+  background: #000; }
+
+.bg-light-grey {
+  background: #eee; }
+
+.tc {
+  text-align: center; }
+
+.center {
+  margin-right: auto;
+  margin-left: auto; }
+
+.h-100 {
+  height: 100vh; }
+
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute; }
+
+.mw-18 {
+  max-width: 18rem; }
+
+.w-100 {
+  width: 100%; }
+
+.h-100 {
+  height: 100%; }
+
+.vh-100 {
+  height: 100vh; }
+
+.z-100 {
+  z-index: 100; }
+
+.dim {
+  opacity: 1;
+  -webkit-transition: opacity .15s ease-in;
+  transition: opacity .15s ease-in; }
+
+.dim:hover, .dim:focus {
+  opacity: .7;
+  -webkit-transition: opacity .15s ease-in;
+  transition: opacity .15s ease-in; }
+
+.dim:active {
+  opacity: .8;
+  -webkit-transition: opacity .15s ease-out;
+  transition: opacity .15s ease-out; }
+
+.link {
+  text-decoration: none;
+  color: white;
+  transition: color .15s ease-in;
+  cursor: pointer; }
+
+.link:link,
+.link:visited {
+  transition: color .15s ease-in; }
+
+.link:hover {
+  transition: color .15s ease-in; }
+
+.link:active {
+  transition: color .15s ease-in; }
+
+.link:focus {
+  transition: color .15s ease-in;
+  outline: 1px dotted currentColor; }
+
+.vc {
+  top: 50%;
+  transform: translateY(-50%); }
+
+.hc {
+  left: 50%;
+  transform: translateX(-50%); }
+
+.xc {
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); }
+
+.op80 {
+  opacity: .8; }
+
+.pt1 {
+  padding-top: 1rem; }
+
+.pb1 {
+  padding-bottom: 1rem; }
+
+.pl1 {
+  padding-left: 1rem; }
+
+.pr1 {
+  padding-right: 1rem; }
