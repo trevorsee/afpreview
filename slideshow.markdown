@@ -6,7 +6,7 @@ slideshow:
   hover-title: description of third image
   horizontal: 50%
   vertical: 50%
-- image: "/uploads/AlizeeFreudenthal-NadiaTarr-ArtDirection-Winter01.jpg"
+- image: "/uploads/AF_NastyGalaxy.jpg"
   hover-title: description of third image
   horizontal: 50%
   vertical: 50%
