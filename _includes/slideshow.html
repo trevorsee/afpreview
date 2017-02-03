@@ -11,7 +11,7 @@
               {{ site.imgurl }}/c_limit,h_5500,w_4000/{{ site.tempurl }}{{ photo.image }} 4000w"
       src="{{ photo.image }}"
       onerror="this.onerror=null;this.srcset='{{ photo.image }}';"
-      class="swiper-slide w-100 h-100"
+      class="swiper-slide swiper-no-swiping w-100 h-100"
       style=" object-fit: cover; object-position: {{ photo.horizontal }} {{ photo.vertical }}; font-family: 'object-fit: cover; object-position: {{ photo.horizontal }} {{ photo.vertical }};'"
       alt="{{ photo.title }}">
       </img>
@@ -25,6 +25,7 @@
 <script>
 var swiper = new Swiper('.swiper-container', {
   loop: true,
+  autoplayDisableOnInteraction: false,
   autoplay: {{site.slider-rate}},
   effect: "fade",
   speed: 1

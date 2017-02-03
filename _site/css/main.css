@@ -48,8 +48,8 @@ body {
 .absolute {
   position: absolute; }
 
-.mw-18 {
-  max-width: 18rem; }
+.w-18 {
+  width: 18rem; }
 
 .w-100 {
   width: 100%; }
