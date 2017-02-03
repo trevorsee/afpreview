@@ -18,11 +18,11 @@ slideshow:
   hover-title: description of second image
   horizontal: 50%
   vertical: 50%
-- image: "/uploads/Alizee-Freudenthal-Marlton-Hotel-05.jpg"
+- image: "/uploads/AlizeeFreudenthal-NadiaTarr-ArtDirection-BW04.jpg"
   hover-title: 
   horizontal: 
   vertical: 
-- image: "/uploads/AlizeeFreudenthal-NadiaTarr-ArtDirection-BW04.jpg"
+- image: "/uploads/Alizee-Freudenthal-Marlton-Hotel-05.jpg"
   hover-title: 
   horizontal: 
   vertical: 
@@ -38,7 +38,7 @@ slideshow:
   hover-title: 
   horizontal: 
   vertical: 
-- image: "/uploads/NADIATARR-CAMPAIGN-WINTER-2.jpg"
+- image: "/uploads/76ers-Flag.jpg"
   hover-title: 
   horizontal: 
   vertical: 
@@ -46,7 +46,7 @@ slideshow:
   hover-title: 
   horizontal: 
   vertical: 
-- image: "/uploads/76ers-Flag.jpg"
+- image: "/uploads/NADIATARR-CAMPAIGN-WINTER-2.jpg"
   hover-title: 
   horizontal: 
   vertical: 
@@ -54,19 +54,15 @@ slideshow:
   hover-title: 
   horizontal: 
   vertical: 
-- image: "/uploads/Alizee-Freudenthal-SUNATA-2.jpg"
-  hover-title: 
-  horizontal: 
-  vertical: 
 - image: "/uploads/AlizeeFreudenthal-TheDean-13.jpg"
   hover-title: 
   horizontal: 
   vertical: 
-- image: "/uploads/NADIATARR-CAMPAIGN-WINTER.jpg"
+- image: "/uploads/Alizee-Freudenthal-SUNATA-2.jpg"
   hover-title: 
   horizontal: 
   vertical: 
-- image: 
+- image: "/uploads/NADIATARR-CAMPAIGN-WINTER.jpg"
   hover-title: 
   horizontal: 
   vertical: 
