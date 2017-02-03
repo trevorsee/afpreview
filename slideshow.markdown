@@ -2,11 +2,11 @@
 title: slideshow
 date: 2017-02-02 05:47:00 Z
 slideshow:
-- image: "/uploads/AlizeeFreudenthal-TheDean-19.jpg"
+- image: "/uploads/AF_NastyGalaxy.jpg"
   hover-title: description of third image
   horizontal: 50%
   vertical: 50%
-- image: "/uploads/AF_NastyGalaxy.jpg"
+- image: "/uploads/AlizeeFreudenthal-TheDean-19.jpg"
   hover-title: description of third image
   horizontal: 50%
   vertical: 50%
