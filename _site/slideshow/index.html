@@ -221,17 +221,32 @@
 <script src="https://unpkg.com/object-fit-images@3.0.1/dist/ofi.min.js"></script>
 
 <script>
+objectFitImages();
+
 var swiper = new Swiper('.swiper-container', {
-  loop: true,
   autoplayDisableOnInteraction: false,
-  autoplay: 1000,
+  autoplay: false,
   effect: "fade",
   speed: 1,
   preloadImages: false,
-  lazyLoading: true
+  lazyLoading: true,
+  onLazyImageReady: function (s) {
+    // console.log(s.activeIndex+1 + ' of ' + s.slides.length);
+    if (s.activeIndex+1 < s.slides.length) {
+      setTimeout( function(){
+        // console.log('next');
+        s.slideNext();
+      }, 1000);
+    } else {
+      setTimeout( function(){
+        // console.log('loop');
+        s.params.autoplay = 1000;
+        s.startAutoplay();
+      }, 1000);
+    }
+  }
 });
 
-objectFitImages();
 </script>
 
 
