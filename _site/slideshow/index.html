@@ -224,25 +224,11 @@
 var swiper = new Swiper('.swiper-container', {
   loop: true,
   autoplayDisableOnInteraction: false,
-  // autoplay: 1000,
-  autoplay: false,
+  autoplay: 1000,
   effect: "fade",
   speed: 1,
   preloadImages: false,
-  lazyLoading: true,
-  onLazyImageReady: function (s) {
-    console.log(s.realIndex + ' of ' + s.slides.length);
-    if (s.realIndex < s.slides.length-3) {
-      setTimeout( function(){
-        s.slideNext();
-      }, 1000);
-    } else {
-      setTimeout( function(){
-        s.params.autoplay = 1000;
-        s.startAutoplay();
-      }, 1000);
-    }
-  }
+  lazyLoading: true
 });
 
 objectFitImages();
